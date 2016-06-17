@@ -11,6 +11,7 @@ class Bookmarks < Sinatra::Base
   enable :sessions
   set :session_secret, 'super secret'
 
+
   get '/' do
     redirect '/links'
   end
